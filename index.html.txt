@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wellness Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'DM Sans',sans-serif;
+background:#07070a;
+color:white;
+line-height:1.6;
+overflow-x:hidden;
+}
+
+.hero{
+position:relative;
+padding:120px 20px;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+url('https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1600');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:52px;
+max-width:900px;
+margin:auto;
+line-height:1.1;
+margin-bottom:20px;
+font-weight:800;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+color:#d1d5db;
+font-size:20px;
+margin-bottom:35px;
+}
+
+.hero-btn{
+display:inline-block;
+padding:16px 28px;
+background:#10b981;
+color:white;
+text-decoration:none;
+font-weight:700;
+border-radius:12px;
+font-size:18px;
+transition:0.3s;
+}
+
+.hero-btn:hover{
+opacity:0.85;
+transform:scale(1.03);
+}
+
+.container{
+max-width:1250px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section-title{
+font-size:38px;
+text-align:center;
+margin-bottom:45px;
+font-weight:800;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#111117;
+border-radius:22px;
+overflow:hidden;
+border:1px solid #232330;
+transition:0.35s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:#10b981;
+box-shadow:0 10px 40px rgba(16,185,129,0.18);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.card-content{
+padding:24px;
+}
+
+.badge{
+display:inline-block;
+padding:6px 12px;
+background:#10b981;
+border-radius:999px;
+font-size:12px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.card h3{
+font-size:28px;
+margin-bottom:12px;
+font-weight:800;
+}
+
+.card p{
+color:#cbd5e1;
+font-size:15px;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:13px 18px;
+background:#10b981;
+color:white;
+text-decoration:none;
+font-weight:700;
+border-radius:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+opacity:0.85;
+}
+
+.problem-section{
+padding:90px 20px;
+text-align:center;
+background:#0d0d12;
+}
+
+.problem-section h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.problem-section p{
+max-width:850px;
+margin:auto;
+font-size:18px;
+color:#cbd5e1;
+}
+
+.footer{
+padding:40px 20px;
+text-align:center;
+border-top:1px solid #222;
+font-size:13px;
+color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+<h1>
+Your Body May Be Warning You Right Now...
+</h1>
+
+<p>
+Low energy. Brain fog. Weight gain. Poor focus. Bad sleep. Discover wellness solutions people are using to support their daily health naturally.
+</p>
+
+<a href="#solutions" class="hero-btn">
+Explore Solutions
+</a>
+
+</section>
+
+<!-- PROBLEM -->
+<section class="problem-section">
+
+<h2>
+Modern Life Is Draining Your Body
+</h2>
+
+<p>
+Millions of people struggle every day with low energy, stubborn weight gain, mental fatigue, stress, and poor wellness habits. Small daily problems slowly become bigger challenges over time.
+</p>
+
+</section>
+
+<!-- PRODUCTS -->
+<div class="container" id="solutions">
+
+<h2 class="section-title">
+🔥 Popular Wellness Categories
+</h2>
+
+<div class="grid">
+
+<!-- WEIGHT LOSS -->
+<div class="card">
+
+<img src="https://images.pexels.com/photos/4498151/pexels-photo-4498151.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weight Loss">
+
+<div class="card-content">
+
+<div class="badge">
+WEIGHT LOSS
+</div>
+
+<h3>
+Java Burn
+</h3>
+
+<p>
+Supports metabolism, fat burning, and healthy daily energy levels for people struggling with stubborn weight gain.
+</p>
+
+<a class="btn"
+href="https://5f817brfgrhw5mbk-86h239pcx.hop.clickbank.net"
+target="_blank">
+Learn More
+</a>
+
+</div>
+</div>
+
+<!-- CITRUSBURN -->
+<div class="card">
+
+<img src="https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fitness">
+
+<div class="card-content">
+
+<div class="badge">
+METABOLISM
+</div>
+
+<h3>
+CitrusBurn
+</h3>
+
+<p>
+Helps support healthy metabolism and daily vitality for people wanting better weight balance.
+</p>
+
+<a class="btn"
+href="https://b5950k1ioqdyame6yj1i38vbw7.hop.clickbank.net"
+target="_blank">
+Learn More
+</a>
+
+</div>
+</div>
+
+<!-- AUDIFORT -->
+<div class="card">
+
+<img src="https://images.pexels.com/photos/4064835/pexels-photo-4064835.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Brain Fog">
+
+<div class="card-content">
+
+<div class="badge">
+BRAIN & FOCUS
+</div>
+
+<h3>
+Audifort
+</h3>
+
+<p>
+Supports mental clarity and focus for people struggling with brain fog and daily mental fatigue.
+</p>
+
+<a class="btn"
+href="https://68b29bylmqnucm937cwbwq2ock.hop.clickbank.net"
+target="_blank">
+Learn More
+</a>
+
+</div>
+</div>
+
+<!-- BRAIN SONG -->
+<div class="card">
+
+<img src="https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Stress">
+
+<div class="card-content">
+
+<div class="badge">
+MEMORY SUPPORT
+</div>
+
+<h3>
+Brain Song
+</h3>
+
+<p>
+Designed to support memory, relaxation, and overall cognitive wellness during stressful lifestyles.
+</p>
+
+<a class="btn"
+href="https://4d4777uthwetcq0305uh49zd8n.hop.clickbank.net"
+target="_blank">
+Learn More
+</a>
+
+</div>
+</div>
+
+<!-- PRODENTIM -->
+<div class="card">
+
+<img src="https://images.pexels.com/photos/6627561/pexels-photo-6627561.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Teeth">
+
+<div class="card-content">
+
+<div class="badge">
+ORAL HEALTH
+</div>
+
+<h3>
+ProDentim
+</h3>
+
+<p>
+Supports fresh breath, gum health, and oral wellness for a healthier daily routine.
+</p>
+
+<a class="btn"
+href="https://a8d6fgxjnuf33tcm-llcoftido.hop.clickbank.net"
+target="_blank">
+Learn More
+</a>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+<p>
+Affiliate Disclosure: This page contains affiliate links. Results may vary. This content is for informational purposes only and does not replace professional medical advice.
+</p>
+
+</footer>
+
+</body>
+</html>
